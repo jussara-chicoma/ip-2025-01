@@ -12,3 +12,4 @@ fmt.Println("o numero é divisivel")
 }else{
 	fmt.Println("O número não é divisivel")
 }
+}
