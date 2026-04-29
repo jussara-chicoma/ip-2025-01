@@ -19,7 +19,7 @@ func main() {
     fmt.Println("\nNúmeros superiores a 50 e suas respectivas posições:")
     for i, v := range vetor {
         if v > 50 {
-            fmt.Printf("Valor %d na posição %d\n", v, i)
+            fmt.Printf("Valor %d na posição %d\n", v, i+1)
             encontrou = true
         }
     }
